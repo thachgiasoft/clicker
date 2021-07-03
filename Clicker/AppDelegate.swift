@@ -6,14 +6,34 @@
 //
 
 import UIKit
+import GoogleMobileAds
+import AdSupport
+import AppTrackingTransparency
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        ATTrackingManager.requestTrackingAuthorization { status in
+            DispatchQueue.main.async {
+                switch status {
+                case .authorized:
+                    // Authorized
+                    let idfa = ASIdentifierManager.shared().advertisingIdentifier
+                    print(idfa)
+                case .denied,
+                     .notDetermined,
+                     .restricted:
+                    break
+                @unknown default:
+                    break
+                }
+            }
+        }
+        
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = [ "5ab140226d28db59c7ff17c53b2b9b43", kGADSimulatorID ]
         return true
     }
 

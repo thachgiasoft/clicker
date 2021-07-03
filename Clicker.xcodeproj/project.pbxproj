@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E03F7ED2690DE8200226E17 /* FullScreenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03F7EC2690DE8200226E17 /* FullScreenModifier.swift */; };
+		7E5D66B22690B0A8009C2948 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D66B12690B0A8009C2948 /* Alerts.swift */; };
+		7E5D66B42690B203009C2948 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D66B32690B203009C2948 /* GameViewModel.swift */; };
+		7E5D66B62690B20F009C2948 /* HardcoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D66B52690B20F009C2948 /* HardcoreViewModel.swift */; };
+		7E5D66B82690B547009C2948 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D66B72690B547009C2948 /* Target.swift */; };
+		7E5D66BA2690BB28009C2948 /* SpeedRunViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D66B92690BB28009C2948 /* SpeedRunViewModel.swift */; };
+		7E5D66BC2690BD0B009C2948 /* Hardcore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D66BB2690BD0B009C2948 /* Hardcore.swift */; };
 		7ECEBEF6268F97CD0010C9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBEF5268F97CD0010C9F1 /* AppDelegate.swift */; };
 		7ECEBEF8268F97CD0010C9F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBEF7268F97CD0010C9F1 /* SceneDelegate.swift */; };
 		7ECEBEFA268F97CD0010C9F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBEF9268F97CD0010C9F1 /* ContentView.swift */; };
@@ -15,6 +22,22 @@
 		7ECEBF02268F97CE0010C9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF00268F97CE0010C9F1 /* LaunchScreen.storyboard */; };
 		7ECEBF0D268F97CE0010C9F1 /* ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBF0C268F97CE0010C9F1 /* ClickerTests.swift */; };
 		7ECEBF18268F97CE0010C9F1 /* ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBF17268F97CE0010C9F1 /* ClickerUITests.swift */; };
+		7ECEBF2B268F982E0010C9F1 /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBF2A268F982E0010C9F1 /* Interstitial.swift */; };
+		7ECEBF2F269091080010C9F1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBF2E269091080010C9F1 /* Home.swift */; };
+		7ECEBF34269092330010C9F1 /* PoppinsFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBF33269092330010C9F1 /* PoppinsFont.swift */; };
+		7ECEBF48269094190010C9F1 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF3D269093B90010C9F1 /* Poppins-Black.ttf */; };
+		7ECEBF49269094190010C9F1 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF3F269093BA0010C9F1 /* Poppins-Bold.ttf */; };
+		7ECEBF4A269094190010C9F1 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF42269093BA0010C9F1 /* Poppins-ExtraBold.ttf */; };
+		7ECEBF4B269094190010C9F1 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF46269093BA0010C9F1 /* Poppins-ExtraLight.ttf */; };
+		7ECEBF4C269094190010C9F1 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF37269093B90010C9F1 /* Poppins-Light.ttf */; };
+		7ECEBF4D269094190010C9F1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF44269093BA0010C9F1 /* Poppins-Medium.ttf */; };
+		7ECEBF4E269094190010C9F1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF38269093B90010C9F1 /* Poppins-Regular.ttf */; };
+		7ECEBF4F269094190010C9F1 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF35269093B90010C9F1 /* Poppins-SemiBold.ttf */; };
+		7ECEBF50269094190010C9F1 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEBF41269093BA0010C9F1 /* Poppins-Thin.ttf */; };
+		7ECEBF5226909A0B0010C9F1 /* SpeedRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECEBF5126909A0B0010C9F1 /* SpeedRun.swift */; };
+		9BFF91D328762B2B6B5BA5D8 /* Pods_Clicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C13CF3D9200FD472EBF7A1 /* Pods_Clicker.framework */; };
+		A405B090E74F9E6F12ABDED9 /* Pods_ClickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C05BCFD60373F187852D89A /* Pods_ClickerTests.framework */; };
+		DC368F4F81CF84CAD419958E /* Pods_Clicker_ClickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE1C2CE3749184C23D549B1 /* Pods_Clicker_ClickerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28C9ECD8C547C00ADB4EE9B7 /* Pods-Clicker-ClickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clicker-ClickerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Clicker-ClickerUITests/Pods-Clicker-ClickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE1C2CE3749184C23D549B1 /* Pods_Clicker_ClickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clicker_ClickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CAABEAC623658742590B40 /* Pods-Clicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clicker.release.xcconfig"; path = "Target Support Files/Pods-Clicker/Pods-Clicker.release.xcconfig"; sourceTree = "<group>"; };
+		6C05BCFD60373F187852D89A /* Pods_ClickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758B3F23753571EECF32AEEB /* Pods-Clicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clicker.debug.xcconfig"; path = "Target Support Files/Pods-Clicker/Pods-Clicker.debug.xcconfig"; sourceTree = "<group>"; };
+		7E03F7EC2690DE8200226E17 /* FullScreenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModifier.swift; sourceTree = "<group>"; };
+		7E5D66B12690B0A8009C2948 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		7E5D66B32690B203009C2948 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7E5D66B52690B20F009C2948 /* HardcoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardcoreViewModel.swift; sourceTree = "<group>"; };
+		7E5D66B72690B547009C2948 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		7E5D66B92690BB28009C2948 /* SpeedRunViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedRunViewModel.swift; sourceTree = "<group>"; };
+		7E5D66BB2690BD0B009C2948 /* Hardcore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hardcore.swift; sourceTree = "<group>"; };
 		7ECEBEF2268F97CD0010C9F1 /* Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECEBEF5268F97CD0010C9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECEBEF7268F97CD0010C9F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +84,24 @@
 		7ECEBF13268F97CE0010C9F1 /* ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECEBF17268F97CE0010C9F1 /* ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerUITests.swift; sourceTree = "<group>"; };
 		7ECEBF19268F97CE0010C9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECEBF2A268F982E0010C9F1 /* Interstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interstitial.swift; sourceTree = "<group>"; };
+		7ECEBF2E269091080010C9F1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7ECEBF33269092330010C9F1 /* PoppinsFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinsFont.swift; sourceTree = "<group>"; };
+		7ECEBF35269093B90010C9F1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		7ECEBF37269093B90010C9F1 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		7ECEBF38269093B90010C9F1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		7ECEBF3D269093B90010C9F1 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		7ECEBF3F269093BA0010C9F1 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7ECEBF41269093BA0010C9F1 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		7ECEBF42269093BA0010C9F1 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7ECEBF43269093BA0010C9F1 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		7ECEBF44269093BA0010C9F1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		7ECEBF46269093BA0010C9F1 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7ECEBF5126909A0B0010C9F1 /* SpeedRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedRun.swift; sourceTree = "<group>"; };
+		81C13CF3D9200FD472EBF7A1 /* Pods_Clicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C73D76A7180BA899ABA1082 /* Pods-ClickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickerTests.debug.xcconfig"; path = "Target Support Files/Pods-ClickerTests/Pods-ClickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDDA2D89FF13C551642250BD /* Pods-ClickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickerTests.release.xcconfig"; path = "Target Support Files/Pods-ClickerTests/Pods-ClickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1A50E295754F391CFD5D8CC /* Pods-Clicker-ClickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clicker-ClickerUITests.release.xcconfig"; path = "Target Support Files/Pods-Clicker-ClickerUITests/Pods-Clicker-ClickerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFF91D328762B2B6B5BA5D8 /* Pods_Clicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A405B090E74F9E6F12ABDED9 /* Pods_ClickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +125,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC368F4F81CF84CAD419958E /* Pods_Clicker_ClickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B5DF92FCD86F011BDACA5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758B3F23753571EECF32AEEB /* Pods-Clicker.debug.xcconfig */,
+				53CAABEAC623658742590B40 /* Pods-Clicker.release.xcconfig */,
+				28C9ECD8C547C00ADB4EE9B7 /* Pods-Clicker-ClickerUITests.debug.xcconfig */,
+				F1A50E295754F391CFD5D8CC /* Pods-Clicker-ClickerUITests.release.xcconfig */,
+				9C73D76A7180BA899ABA1082 /* Pods-ClickerTests.debug.xcconfig */,
+				EDDA2D89FF13C551642250BD /* Pods-ClickerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5AB1B1EE6485B73DC7855354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C13CF3D9200FD472EBF7A1 /* Pods_Clicker.framework */,
+				4FE1C2CE3749184C23D549B1 /* Pods_Clicker_ClickerUITests.framework */,
+				6C05BCFD60373F187852D89A /* Pods_ClickerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7ECEBEE9268F97CD0010C9F1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +162,8 @@
 				7ECEBF0B268F97CE0010C9F1 /* ClickerTests */,
 				7ECEBF16268F97CE0010C9F1 /* ClickerUITests */,
 				7ECEBEF3268F97CD0010C9F1 /* Products */,
+				50B5DF92FCD86F011BDACA5D /* Pods */,
+				5AB1B1EE6485B73DC7855354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +183,14 @@
 				7ECEBEF5268F97CD0010C9F1 /* AppDelegate.swift */,
 				7ECEBEF7268F97CD0010C9F1 /* SceneDelegate.swift */,
 				7ECEBEF9268F97CD0010C9F1 /* ContentView.swift */,
-				7ECEBEFB268F97CE0010C9F1 /* Assets.xcassets */,
-				7ECEBF00268F97CE0010C9F1 /* LaunchScreen.storyboard */,
 				7ECEBF03268F97CE0010C9F1 /* Info.plist */,
+				7ECEBF00268F97CE0010C9F1 /* LaunchScreen.storyboard */,
+				7ECEBEFB268F97CE0010C9F1 /* Assets.xcassets */,
+				7ECEBF30269091D80010C9F1 /* resources */,
+				7ECEBF29268F981A0010C9F1 /* utils */,
+				7ECEBF28268F98130010C9F1 /* models */,
+				7ECEBF27268F98020010C9F1 /* viewmodels */,
+				7ECEBF25268F97F60010C9F1 /* views */,
 				7ECEBEFD268F97CE0010C9F1 /* Preview Content */,
 			);
 			path = Clicker;
@@ -136,6 +222,62 @@
 			path = ClickerUITests;
 			sourceTree = "<group>";
 		};
+		7ECEBF25268F97F60010C9F1 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7ECEBF2E269091080010C9F1 /* Home.swift */,
+				7ECEBF5126909A0B0010C9F1 /* SpeedRun.swift */,
+				7E5D66BB2690BD0B009C2948 /* Hardcore.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7ECEBF27268F98020010C9F1 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D66B32690B203009C2948 /* GameViewModel.swift */,
+				7E5D66B52690B20F009C2948 /* HardcoreViewModel.swift */,
+				7E5D66B92690BB28009C2948 /* SpeedRunViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		7ECEBF28268F98130010C9F1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D66B72690B547009C2948 /* Target.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		7ECEBF29268F981A0010C9F1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				7ECEBF2A268F982E0010C9F1 /* Interstitial.swift */,
+				7ECEBF33269092330010C9F1 /* PoppinsFont.swift */,
+				7E5D66B12690B0A8009C2948 /* Alerts.swift */,
+				7E03F7EC2690DE8200226E17 /* FullScreenModifier.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		7ECEBF30269091D80010C9F1 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7ECEBF43269093BA0010C9F1 /* OFL.txt */,
+				7ECEBF3D269093B90010C9F1 /* Poppins-Black.ttf */,
+				7ECEBF3F269093BA0010C9F1 /* Poppins-Bold.ttf */,
+				7ECEBF42269093BA0010C9F1 /* Poppins-ExtraBold.ttf */,
+				7ECEBF46269093BA0010C9F1 /* Poppins-ExtraLight.ttf */,
+				7ECEBF37269093B90010C9F1 /* Poppins-Light.ttf */,
+				7ECEBF44269093BA0010C9F1 /* Poppins-Medium.ttf */,
+				7ECEBF38269093B90010C9F1 /* Poppins-Regular.ttf */,
+				7ECEBF35269093B90010C9F1 /* Poppins-SemiBold.ttf */,
+				7ECEBF41269093BA0010C9F1 /* Poppins-Thin.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECEBF1C268F97CE0010C9F1 /* Build configuration list for PBXNativeTarget "Clicker" */;
 			buildPhases = (
+				26EE6A2D8D2632A76225274E /* [CP] Check Pods Manifest.lock */,
 				7ECEBEEE268F97CD0010C9F1 /* Sources */,
 				7ECEBEEF268F97CD0010C9F1 /* Frameworks */,
 				7ECEBEF0268F97CD0010C9F1 /* Resources */,
+				D67652D77DB6F34A27545F04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECEBF1F268F97CE0010C9F1 /* Build configuration list for PBXNativeTarget "ClickerTests" */;
 			buildPhases = (
+				8678F99B5DDA940BA6735A11 /* [CP] Check Pods Manifest.lock */,
 				7ECEBF04268F97CE0010C9F1 /* Sources */,
 				7ECEBF05268F97CE0010C9F1 /* Frameworks */,
 				7ECEBF06268F97CE0010C9F1 /* Resources */,
@@ -178,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECEBF22268F97CE0010C9F1 /* Build configuration list for PBXNativeTarget "ClickerUITests" */;
 			buildPhases = (
+				72426DBCAE78CA50B3DED7F1 /* [CP] Check Pods Manifest.lock */,
 				7ECEBF0F268F97CE0010C9F1 /* Sources */,
 				7ECEBF10268F97CE0010C9F1 /* Frameworks */,
 				7ECEBF11268F97CE0010C9F1 /* Resources */,
+				963DCA4FB06B4758C4D4ED18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +386,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECEBF48269094190010C9F1 /* Poppins-Black.ttf in Resources */,
+				7ECEBF49269094190010C9F1 /* Poppins-Bold.ttf in Resources */,
+				7ECEBF4A269094190010C9F1 /* Poppins-ExtraBold.ttf in Resources */,
+				7ECEBF4B269094190010C9F1 /* Poppins-ExtraLight.ttf in Resources */,
+				7ECEBF4C269094190010C9F1 /* Poppins-Light.ttf in Resources */,
+				7ECEBF4D269094190010C9F1 /* Poppins-Medium.ttf in Resources */,
+				7ECEBF4E269094190010C9F1 /* Poppins-Regular.ttf in Resources */,
+				7ECEBF4F269094190010C9F1 /* Poppins-SemiBold.ttf in Resources */,
+				7ECEBF50269094190010C9F1 /* Poppins-Thin.ttf in Resources */,
 				7ECEBF02268F97CE0010C9F1 /* LaunchScreen.storyboard in Resources */,
 				7ECEBEFF268F97CE0010C9F1 /* Preview Assets.xcassets in Resources */,
 				7ECEBEFC268F97CE0010C9F1 /* Assets.xcassets in Resources */,
@@ -261,13 +417,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26EE6A2D8D2632A76225274E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72426DBCAE78CA50B3DED7F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clicker-ClickerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8678F99B5DDA940BA6735A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963DCA4FB06B4758C4D4ED18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clicker-ClickerUITests/Pods-Clicker-ClickerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clicker-ClickerUITests/Pods-Clicker-ClickerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clicker-ClickerUITests/Pods-Clicker-ClickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67652D77DB6F34A27545F04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clicker/Pods-Clicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clicker/Pods-Clicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clicker/Pods-Clicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7ECEBEEE268F97CD0010C9F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5D66B62690B20F009C2948 /* HardcoreViewModel.swift in Sources */,
 				7ECEBEF6268F97CD0010C9F1 /* AppDelegate.swift in Sources */,
+				7E5D66BC2690BD0B009C2948 /* Hardcore.swift in Sources */,
+				7E5D66B42690B203009C2948 /* GameViewModel.swift in Sources */,
+				7ECEBF2B268F982E0010C9F1 /* Interstitial.swift in Sources */,
+				7E5D66BA2690BB28009C2948 /* SpeedRunViewModel.swift in Sources */,
+				7E5D66B22690B0A8009C2948 /* Alerts.swift in Sources */,
+				7ECEBF2F269091080010C9F1 /* Home.swift in Sources */,
 				7ECEBEF8268F97CD0010C9F1 /* SceneDelegate.swift in Sources */,
+				7E5D66B82690B547009C2948 /* Target.swift in Sources */,
+				7ECEBF5226909A0B0010C9F1 /* SpeedRun.swift in Sources */,
+				7E03F7ED2690DE8200226E17 /* FullScreenModifier.swift in Sources */,
+				7ECEBF34269092330010C9F1 /* PoppinsFont.swift in Sources */,
 				7ECEBEFA268F97CD0010C9F1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +703,7 @@
 		};
 		7ECEBF1D268F97CE0010C9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758B3F23753571EECF32AEEB /* Pods-Clicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,12 +719,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Clicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7ECEBF1E268F97CE0010C9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CAABEAC623658742590B40 /* Pods-Clicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,12 +741,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Clicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7ECEBF20268F97CE0010C9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C73D76A7180BA899ABA1082 /* Pods-ClickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +770,7 @@
 		};
 		7ECEBF21268F97CE0010C9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDA2D89FF13C551642250BD /* Pods-ClickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +793,7 @@
 		};
 		7ECEBF23268F97CE0010C9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C9ECD8C547C00ADB4EE9B7 /* Pods-Clicker-ClickerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +814,7 @@
 		};
 		7ECEBF24268F97CE0010C9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A50E295754F391CFD5D8CC /* Pods-Clicker-ClickerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
